@@ -3,7 +3,7 @@ pocket:
   response: 'This server is only supported on the Java edition of Minecraft'
 join:
   regex: '((what)(.*)(the ip))|(how)(.*)(join)|((how)(.*)(go)(.*)(server))'
-  response: 'The ip to the server is mc.obby.club and support **Java edition Minecraft**'
+  response: 'The ip to the server is mc.obby.club and supports **Java edition Minecraft**'
 captcha:
   regex: 'captcha'
   response: 'Go to options -> chat settings -> chat: shown and if you have a texture pack turn it off'
