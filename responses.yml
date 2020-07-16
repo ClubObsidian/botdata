@@ -9,7 +9,7 @@ captcha:
   response: 'Go to options -> chat settings -> chat: shown and if you have a texture pack turn it off'
 version:
   regex: '(what)(.*)(version)'
-  response: 'You can join Club Obsidian on 1.8+ and The Ark on 1.13+ on **Java edition Minecraft**'
+  response: 'You can join Club Obsidian on 1.8.2+ and The Ark on 1.13.2+ on **Java edition Minecraft**'
 map:
   regex: '(link)(.*)(map)'
   response: 'https://livemap.arksearth.com'
