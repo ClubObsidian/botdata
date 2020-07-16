@@ -2,7 +2,7 @@ join:
   regex: '(what is the ip|how do i join)'
   response: 'The ip to the server is mc.obby.club'
 pocket:
-  regex: '(play|use)(.*)(xbox|windows ten|windows 10|minecraft pe|pocket|bedrock)'
+  regex: '(on|play|use)(.*)(xbox|windows ten|windows 10|minecraft pe|pocket|bedrock)'
   response: 'This server is only supported on the Java edition of Minecraft'
 captcha:
   regex: 'captcha'
