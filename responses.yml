@@ -1,2 +1,8 @@
-'what is the ip':
-  response: 'The ip to the server is mc.clubobsidian.com'
+'(what is the ip|how do i join)':
+  response: 'The ip to the server is mc.obby.club'
+'(play|use)(.*)(xbox|windows ten|windows 10|minecraft pe|pocket|bedrock)':
+  response: 'This server is only supported on the Java edition of Minecraft'
+'captcha':
+  response: 'Go to options -> chat settings -> chat: shown and if you have a texture pack turn it off'
+'(what)(version)':
+   response: 'Club Obsidian is 1.8+ and The Ark is 1.13+'
