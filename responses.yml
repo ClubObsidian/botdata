@@ -10,3 +10,6 @@ captcha:
 version:
   regex: '(what)(.*)(version)'
   response: 'You can join Club Obsidian on 1.8+ and The Ark on 1.13+'
+map:
+  regex: '(link)(.*)(map)'
+  response: 'https://livemap.arksearth.com'
