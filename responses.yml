@@ -1,5 +1,5 @@
 pocket:
-  regex: '(on|play|use|join)(.*)(xbox|ps4|playstation 4|windows ten|windows 10|minecraft pe|pocket|bedrock|mobile)'
+  regex: '(on|play|use|join)(.*)(xbox|ps4|playstation 4|switch|windows ten|windows 10|minecraft pe|pocket|bedrock|mobile)'
   response: 'This server is only supported on the Java edition of Minecraft'
 join:
   regex: '((what)(.*)(the ip))|(how)(.*)(join)|((how)(.*)(go)(.*)(server))'
