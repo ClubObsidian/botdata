@@ -9,4 +9,4 @@
   data: 'You can find who is staff at https://www.clubobsidian.com/staff'
 '!apply':
   type: 'message'
-  data: 'You can apply for staff at https://www.clubobsidian.com/apps'
+  data: 'You can apply for staff at https://www.clubobsidian.com/apps. To apply you need to sign in and join the forums.'
