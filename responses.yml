@@ -10,6 +10,9 @@ port:
 servername:
   regex: '(what)(.*)(server)(.*)(name)'
   response: 'You can put anything as the server name but the server only supports **Java edition PC Minecraft**'
+premium:
+  regex: '((need)(.*)(premium))|(premium account)|((play)(.*)(cracked))|(tlauncher)'
+  response: 'You need a premium **Java edition PC Minecraft account** to play, you can buy one at https://www.minecraft.net'
 captcha:
   regex: 'captcha'
   response: 'Go to options -> chat settings -> chat: shown and if you have a texture pack turn it off'
