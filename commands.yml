@@ -10,3 +10,6 @@
 '!apply':
   type: 'message'
   data: 'You can apply for staff at https://www.clubobsidian.com/apps. To apply you need to sign in and join the forums.'
+'!map':
+  type: 'message'
+  data: 'The map for The Ark server can be found at https://livemap.arksearth.com/'
