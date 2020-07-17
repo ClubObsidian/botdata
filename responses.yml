@@ -13,6 +13,9 @@ servername:
 premium:
   regex: '((need)(.*)(premium))|(premium account)|((play)(.*)(cracked))|(tlauncher)'
   response: 'You need a premium **Java edition PC Minecraft account** to play, you can buy one at https://www.minecraft.net'
+java:
+  regex: '(how)(.*)(get)(.*)(java)'
+  response: 'Java Edition Minecraft only runs on a computer, you cannot run it on a PS4, Xbox, Switch or Phone'
 captcha:
   regex: 'captcha'
   response: 'Go to options -> chat settings -> chat: shown and if you have a texture pack turn it off'
