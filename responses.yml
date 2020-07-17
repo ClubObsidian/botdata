@@ -1,15 +1,15 @@
 pocket:
   regex: '(on|play|use|join)(.*)(xbox|ps4|playstation 4|switch|windows ten|windows 10|minecraft pe|pocket|bedrock|mobile)'
-  response: 'This server is only supported on the Java edition of Minecraft'
+  response: 'This server is only supported on the Java edition of PC Minecraft'
 join:
   regex: '((what)(.*)(the ip))|(how)(.*)(join)|((how)(.*)(go)(.*)(server))'
-  response: 'The ip to the server is mc.obby.club or mc.clubobsidian.com and supports **Java edition Minecraft**'
+  response: 'The ip to the server is mc.obby.club or mc.clubobsidian.com and supports **Java edition PC Minecraft**'
 captcha:
   regex: 'captcha'
   response: 'Go to options -> chat settings -> chat: shown and if you have a texture pack turn it off'
 version:
   regex: '(what)(.*)(version)'
-  response: 'You can join Club Obsidian on 1.8.2+ and The Ark on 1.13.2+ on **Java edition Minecraft**'
+  response: 'You can join Club Obsidian on 1.8.2+ and The Ark on 1.13.2+ on **Java edition PC Minecraft**'
 map:
   regex: '(link)(.*)(map)'
   response: 'https://livemap.arksearth.com'
