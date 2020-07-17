@@ -1,8 +1,8 @@
 pocket:
-  regex: '(on|play|use|join)(.*)(xbox|ps4|playstation 4|switch|windows ten|windows 10|minecraft pe|pocket|bedrock|mobile)'
+  regex: '((on|play|use|join)(.*)(xbox|ps4|playstation 4|switch|windows ten|windows 10|minecraft pe|pocket|bedrock|mobile))|((server)(.*)(bedrock))'
   response: 'This server is only supported on the **Java edition of PC Minecraft**'
 join:
-  regex: '((what)(.*)(the ip|address))|(where|how)(.*)(join)|((how)(.*)(go)(.*)(server))'
+  regex: '((what)(.*)(the ip|address))|(where|how)(.*)(join)|((how)(.*)(go)(.*)(server))|(server)(.*)(ip)'
   response: 'The ip to the server is mc.obby.club or mc.clubobsidian.com and supports **Java edition PC Minecraft**'
 port:
   regex: '(what)(.*)(port)'
@@ -11,7 +11,7 @@ servername:
   regex: '(what)(.*)(server)(.*)(name)'
   response: 'You can put anything as the server name but the server only supports **Java edition PC Minecraft**'
 premium:
-  regex: '((need)(.*)(premium))|(premium account)|((play)(.*)(cracked))|(tlauncher)'
+  regex: '((need)(.*)(premium))|(premium account)|(cracked)|(tlauncher)'
   response: 'You need a premium **Java edition PC Minecraft account** to play, you can buy one at https://www.minecraft.net'
 java:
   regex: '(how)(.*)(get)(.*)(java)'
