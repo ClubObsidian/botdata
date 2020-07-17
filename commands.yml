@@ -4,3 +4,6 @@
 '!ark':
   type: 'message'
   data: 'The Ark Server is a Towny Earth Survival Server that we are partnered with, you can join the discord at https://discord.gg/theark'
+'!staff':
+  type: 'message'
+  data: 'You can find who is staff at https://www.clubobsidian.com/staff'
