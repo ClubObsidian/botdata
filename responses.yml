@@ -2,7 +2,7 @@ pocket:
   regex: '(on|play|use|join)(.*)(xbox|ps4|playstation 4|switch|windows ten|windows 10|minecraft pe|pocket|bedrock|mobile)'
   response: 'This server is only supported on the **Java edition of PC Minecraft**'
 join:
-  regex: '((what)(.*)(the ip))|(where|how)(.*)(join)|((how)(.*)(go)(.*)(server))'
+  regex: '((what)(.*)(the ip|address))|(where|how)(.*)(join)|((how)(.*)(go)(.*)(server))'
   response: 'The ip to the server is mc.obby.club or mc.clubobsidian.com and supports **Java edition PC Minecraft**'
 port:
   regex: '(what)(.*)(port)'
