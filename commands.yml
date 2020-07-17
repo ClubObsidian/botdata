@@ -1,3 +1,6 @@
 '!ip':
   type: 'message'
   data: 'The ip for the server is mc.obby.club or mc.clubobsidian.com'
+'!ark':
+  type: 'message'
+  data: 'The Ark Server is a Towny Earth Survival Server, you can join the discord at https://discord.gg/theark'
