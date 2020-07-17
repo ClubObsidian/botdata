@@ -8,7 +8,7 @@ captcha:
   regex: 'captcha'
   response: 'Go to options -> chat settings -> chat: shown and if you have a texture pack turn it off'
 version:
-  regex: '(what)(.*)(version)'
+  regex: '(which|what)(.*)(version)'
   response: 'You can join Club Obsidian on 1.8.2+ and The Ark on 1.13.2+ on **Java edition PC Minecraft**'
 map:
   regex: '(link)(.*)(map)'
