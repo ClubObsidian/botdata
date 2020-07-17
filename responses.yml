@@ -4,6 +4,9 @@ pocket:
 join:
   regex: '((what)(.*)(the ip))|(where|how)(.*)(join)|((how)(.*)(go)(.*)(server))'
   response: 'The ip to the server is mc.obby.club or mc.clubobsidian.com and supports **Java edition PC Minecraft**'
+port:
+  regex: '(what)(.*)(port)'
+  response: 'No port is required as the default port is used, this server supports only **Java edition PC Minecraft**'
 captcha:
   regex: 'captcha'
   response: 'Go to options -> chat settings -> chat: shown and if you have a texture pack turn it off'
