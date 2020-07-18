@@ -13,3 +13,6 @@
 '!map':
   type: 'message'
   data: 'The map for The Ark server can be found at https://livemap.arksearth.com/'
+'!appeal':
+  type: 'message'
+  data: 'You can appeal your ban at https://www.clubobsidian.com/tickets'
