@@ -5,10 +5,10 @@
   type: 'message'
   data: 
   - 'If you are having an issue connecting to the server try these other ips.'
-  - 'play.obby.club - Global'
-  - 'na.play.obby.club - North America'
-  - 'uk.play.obby.club - Europe'
-  - 'au.play.obby.club - Australia'
+  - '`play.obby.club` - Global'
+  - '`na.play.obby.club` - North America'
+  - '`uk.play.obby.club` - Europe'
+  - '`au.play.obby.club` - Australia'
 '!ark':
   type: 'message'
   data: 'The Ark Server is a Towny Earth Survival Server that we are partnered with, you can join the discord at https://discord.gg/theark'
