@@ -11,6 +11,8 @@
   - '`au.play.obby.club` - Australia'
 '!ark':
   type: 'message'
+  aliases:
+  - '!earth'
   data: 'The Ark Server is a Towny Earth Survival Server that we are partnered with, you can join the discord at https://discord.gg/theark'
 '!staff':
   type: 'message'
