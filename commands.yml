@@ -11,6 +11,11 @@
   aliases:
   - '!earth'
   data: 'The Ark Server is a Towny Earth Survival Server that we are partnered with, you can join the discord at https://discord.gg/theark'
+'!dns':
+  type: 'message'
+  data: 
+  - 'If you are having issues connecting to the server and you are using the **Java Edition of PC Minecraft** you may be experiencing DNS issues.'
+  - 'Please follow the instructions at https://1.1.1.1/dns/#setup-instructions to update your DNS.'
 '!staff':
   type: 'message'
   data: 'You can find who is staff at https://www.clubobsidian.com/staff'
