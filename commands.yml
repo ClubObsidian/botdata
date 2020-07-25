@@ -1,10 +1,7 @@
 '!ip':
   type: 'message'
-  data: 'The ip for the server is mc.obby.club or mc.clubobsidian.com but the server only supports **Java edition PC Minecraft**'
-'!otherips':
-  type: 'message'
   data: 
-  - 'If you are having an issue connecting to the server try these other ips.'
+  - 'The ip for the server is `mc.obby.club` or `mc.clubobsidian.com` but the server only supports **Java edition PC Minecraft**. If you are having an issue connecting to the server try these other ips.'
   - '`play.obby.club` - Global'
   - '`na.play.obby.club` - North America'
   - '`uk.play.obby.club` - Europe'
