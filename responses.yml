@@ -21,7 +21,7 @@ java:
   response: 'Java Edition Minecraft only runs on a computer, you cannot run it on a PS4, Xbox, Switch or Phone. You can buy a minecraft account at https://www.minecraft.net'
 captcha:
   regex: 'captcha'
-  response: 'Go to options -> chat settings -> chat: shown and if you have a texture pack turn it off'
+  response: 'If you cannot complete the captcha go to options -> chat settings -> chat: shown and if you have a texture pack turn it off'
 version:
   regex: '(which|what)(.*)(version)'
   response: 'You can join Club Obsidian on 1.8.2+ and The Ark on 1.13.2+ on **Java edition PC Minecraft**'
