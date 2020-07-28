@@ -28,3 +28,6 @@ version:
 map:
   regex: '(link)(.*)(map)'
   response: 'https://livemap.arksearth.com'
+potatoskin:
+  regex: '(potato)(.*)(skin)'
+  response: You can find the potato farmer skins in <#736628376097390622>!
