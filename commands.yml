@@ -28,3 +28,6 @@
 '!appeal':
   type: 'message'
   data: 'You can appeal your ban at https://www.clubobsidian.com/tickets'
+'!ts':
+  type: 'message'
+  data: 'You can join the teamspeak at ts3.clubobsidian.com, make sure you download teamspeak first at https://www.teamspeak.com/en/downloads/'
