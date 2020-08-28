@@ -1,11 +1,16 @@
 '!ip':
   type: 'message'
-  data: 
-  - 'The ip for the server is `mc.obby.club` or `mc.clubobsidian.com` but the server only supports **Java edition PC Minecraft**. If you are having an issue connecting to the server try these other ips.'
+  data:
+  - '**Java Edition PC Minecraft**'
+  - 'The IP for the **Java Edition** is `mc.obby.club` or `mc.clubobsidian.com`. If you are having an issue connecting to the server try these other ips.'
   - '`play.obby.club` - Global'
   - '`na.play.obby.club` - North America'
   - '`uk.play.obby.club` - Europe'
   - '`au.play.obby.club` - Australia'
+  - ''
+  - '**Bedrock Edition Xbox/PlayStation/Switch/Mobile/Win 10**'
+  - 'The IP for the **Bedrock Edition** is `bedrock.obby.club`'
+  - 'You **MUST** be logged in to a microsoft account to join the bedrock server'
 '!ark':
   type: 'message'
   aliases:
@@ -31,3 +36,8 @@
 '!ts':
   type: 'message'
   data: 'You can join the teamspeak at ts3.clubobsidian.com, make sure you download teamspeak first at https://www.teamspeak.com/en/downloads/'
+'!version':
+  type: 'message'
+  data:
+  - 'You can join Club Obsidian on 1.8.2+ and The Ark on 1.13.2+ on **Java edition PC Minecraft**'
+  - 'For Bedrock(console/mobile/win10), the latest version should work fine'

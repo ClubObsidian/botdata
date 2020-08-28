@@ -1,18 +1,18 @@
 pocket:
   regex: '((play|use|join)(.*)(xbox|ps4|playstation 4|switch|windows ten|windows 10|minecraft pe|pocket|bedrock|mobile|phone))|((server)(.*)(bedrock))'
-  response: 'This server is only supported on the **Java edition of PC Minecraft**'
+  response: 'The ip to the **Bedrock Edition** server is `bedrock.obby.club`'
 pewdiepie:
   regex: '(pewdiepie)(.*)(server)'
   response: 'The pewdiepie server was a charity server we ran in 2019. If you would like to you can join our other servers we run at mc.obby.club or mc.clubobsidian.com'
 join:
   regex: '((what)(.*)(the ip|address))|(where|how)(.*)(join)|((how)(.*)(go)(.*)(server))|(server)(.*)(ip)'
-  response: 'The ip to the server is mc.obby.club or mc.clubobsidian.com and supports **Java edition PC Minecraft**'
+  response: 'The ip to the **Java Edition PC Minecraft** server is `mc.obby.club` or `mc.clubobsidian.com`. The ip to the **Bedrock Edition** server is `bedrock.obby.club`'
 port:
   regex: '(what)(.*)(port)'
-  response: 'No port is required as the default port is used, this server supports only **Java edition PC Minecraft**'
+  response: 'No port is required as the default port is used for **Java Edition**. The **Bedrock Edition** server supports uses the default port of **19132**'
 servername:
   regex: '(what)(.*)(server)(.*)(name)'
-  response: 'You can put anything as the server name but the server only supports **Java edition PC Minecraft**'
+  response: 'You can put anything as the server name'
 premium:
   regex: '((need)(.*)(premium))|(premium account)|(cracked)|(tlauncher)|((non)(.*)(premium))'
   response: 'You need a premium **Java edition PC Minecraft account** to play, you can buy one at https://www.minecraft.net'
@@ -24,10 +24,10 @@ captcha:
   response: 'If you cannot complete the captcha go to options -> chat settings -> chat: shown and if you have a texture pack turn it off'
 version:
   regex: '(which|what)(.*)(version)'
-  response: 'You can join Club Obsidian on 1.8.2+ and The Ark on 1.13.2+ on **Java edition PC Minecraft**'
+  response: 'With **Java Edition PC Minecraft**, you can join Club Obsidian on 1.8.2+ and The Ark on 1.13.2+. With **Bedrock Edition**, the latest should be fine'
 map:
   regex: '(link)(.*)(map)'
   response: 'https://livemap.arksearth.com'
 potatoskin:
-  regex: '(potato)(.*)(skin)'
-  response: You can find the potato farmer skins in <#736628376097390622>!
+  regex: '(potato|farmer)(.*)(skin)'
+  response: 'You can find the potato farmer skins in <#736628376097390622>!'
