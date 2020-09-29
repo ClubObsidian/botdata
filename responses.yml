@@ -1,18 +1,18 @@
 pocket:
   regex: '((play|use|join)(.*)(xbox|ps4|playstation 4|switch|windows ten|windows 10|minecraft pe|pocket|bedrock|mobile|phone))|((server)(.*)(bedrock))'
-  response: 'The ip to the **Bedrock Edition** server is `bedrock.obby.club`'
+  response: 'You can connect to the **Bedrock Edition** server with `play.obby.club` using the default port `19132`. Server name is `Club Obsidian`'
 pewdiepie:
   regex: '(pewdiepie)(.*)(server)'
-  response: 'The pewdiepie server was a charity server we ran in 2019. If you would like to you can join our other servers we run at mc.obby.club or mc.clubobsidian.com'
+  response: 'The pewdiepie server was a charity server we ran in 2019. If you would like to you can join our other servers we run at play.obby.club or mc.clubobsidian.com'
 join:
   regex: '((what)(.*)(the ip|address))|(where|how)(.*)(join)|((how)(.*)(go)(.*)(server))|(server)(.*)(ip)'
-  response: 'The ip to the **Java Edition PC Minecraft** server is `mc.obby.club` or `mc.clubobsidian.com`. The ip to the **Bedrock Edition** server is `bedrock.obby.club`'
+  response: 'You can connect to the **Java Edition PC Minecraft** server using `play.obby.club` or `mc.clubobsidian.com`. You can connect to the **Bedrock Edition** server using `play.obby.club`'
 port:
   regex: '(what)(.*)(port)'
-  response: 'No port is required as the default port is used for **Java Edition**. The **Bedrock Edition** server supports uses the default port of **19132**'
+  response: 'No port is required as the default port is used for **Java Edition**. The **Bedrock Edition** server supports uses the default port of `19132`'
 servername:
   regex: '(what)(.*)(server)(.*)(name)'
-  response: 'You can put anything as the server name'
+  response: 'You can put anything as the server name, such as Club Obby'
 premium:
   regex: '((need)(.*)(premium))|(premium account)|(cracked)|(tlauncher)|((non)(.*)(premium))'
   response: 'You need a premium **Java edition PC Minecraft account** to play, you can buy one at https://www.minecraft.net'
