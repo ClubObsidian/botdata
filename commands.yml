@@ -2,15 +2,14 @@
   type: 'message'
   data:
   - '**Java Edition PC Minecraft**'
-  - 'The IP for the **Java Edition** is `mc.obby.club` or `mc.clubobsidian.com`. If you are having an issue connecting to the server try these other ips.'
-  - '`play.obby.club` - Global'
+  - 'The IP for the **Java Edition** is `play.obby.club` or `mc.clubobsidian.com`. If you are having an issue connecting to the server try these other ips.'
+  - '`mc.obby.club` - Global'
   - '`na.play.obby.club` - North America'
   - '`uk.play.obby.club` - Europe'
   - '`au.play.obby.club` - Australia'
   - ''
   - '**Bedrock Edition Xbox/PlayStation/Switch/Mobile/Win 10**'
-  - 'The IP for the **Bedrock Edition** is `bedrock.obby.club`'
-  - 'You **MUST** be logged in to a microsoft account to join the bedrock server'
+  - 'The IP for the **Bedrock Edition** is `play.obby.club` with the default port `19132`'
 '!ark':
   type: 'message'
   aliases:
@@ -41,3 +40,24 @@
   data:
   - 'You can join Club Obsidian on 1.8.2+ and The Ark on 1.13.2+ on **Java edition PC Minecraft**'
   - 'For Bedrock(console/mobile/win10), the latest version should work fine'
+'!port':
+  type: 'message'
+  data: 'No port is required as the default port is used for **Java Edition**. The **Bedrock Edition** server supports uses the default port of **19132**'
+'!name':
+  type: 'message'
+  data: 'The server name can be anything you want, but we suggest `Club Obsidian` so you know which server is which'
+'!help':
+  type: 'message'
+  data:
+  - '**Bot Commands**'
+  - '!ip - IP to the server'
+  - '!port - Port for the server'  
+  - '!version - Version of the server'
+  - '!name - Server name'
+  - '!dns - Connection issues? Try this'
+  - '!ark - Arks Earth (1:1000) discord'
+  - '!map - Earth map'
+  - '!staff - List of staff'
+  - '!appeal - Appeal your punishment'
+  - '!apply - Apply for staff'
+  - '!ts - TeamSpeak3 IP'
