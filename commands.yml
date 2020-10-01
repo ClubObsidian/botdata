@@ -46,6 +46,13 @@
 '!name':
   type: 'message'
   data: 'The server name can be anything you want, but we suggest `Club Obsidian` so you know which server is which'
+'!store':
+  type: 'message'
+  aliases:
+  - '!shop'
+  data: 
+  - 'The store for **SMP** is https://shop.obby.club/'
+  - 'The store for **everything else** is https://store.clubobsidian.com/'
 '!help':
   type: 'message'
   data:
@@ -57,6 +64,7 @@
   - '!dns - Connection issues? Try this'
   - '!ark - Arks Earth (1:1000) discord'
   - '!map - Earth map'
+  - '!store - Links to the stores'
   - '!staff - List of staff'
   - '!appeal - Appeal your punishment'
   - '!apply - Apply for staff'
